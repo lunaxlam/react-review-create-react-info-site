@@ -18,7 +18,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: black;
+  background-color: #282D35;
   color: white;
 }
 
@@ -43,8 +43,12 @@ nav {
 
 main {
   padding: 57px 27px;
-  background-color: #282D35;
+  background-color: black;
   color: white;
+  background-image: url('../src/images/react-logo-bw-half.png');
+  background-repeat: no-repeat;
+  background-size: 125px;
+  background-position: right 75%;
 }
 
 .main--title {
@@ -65,4 +69,12 @@ main {
 .main--list > li::marker {
   color: #61DAFB;
   font-size: 1.4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #282D35;
+  color: white;
 }
