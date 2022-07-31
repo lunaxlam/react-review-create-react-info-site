@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav--logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.nav--logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+main {
+  padding: 57px 27px;
+  background-color: #282D35;
+  color: white;
+}
+
+.main--title {
+  font-size: 39px;
+  letter-spacing: -0.053em;
+}
+
+.main--list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--list > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
